@@ -77,6 +77,8 @@ p{
   border-radius: 10px;
 }
 */
+
+/*
 h1{
   text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
 }
@@ -86,3 +88,25 @@ h1{
   background-color: rgb(234, 234, 234);
   box-shadow: 3px 3px 5px;
 }
+*/
+
+/* use on 18Margin
+body{
+  margin: 0px;
+}
+.box{
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+#box1{
+  background-color: hsl(0, 100%, 60%);
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#box2{
+  background-color: hsl(189, 100%, 55%);
+}
+*/
