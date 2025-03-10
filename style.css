@@ -308,7 +308,7 @@ li:nth-child(3n+2){
 }
 */
 
-/* use in 29Dropdown */
+/* use in 29Dropdown 
 .dropdown{
   display: inline-block;
 }
@@ -341,8 +341,10 @@ li:nth-child(3n+2){
 .dropdown a:hover{
   background-color: hsl(0, 0%, 90%);
 }
+*/
 
-/* 30Navigation */
+
+/* 30Navigation 
 body{
   margin: 0px;
 }
@@ -372,4 +374,49 @@ h1{
 }
 .navbar li{
   float: left;
+}
+*/
+
+/* use on 31Layout */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+header{
+  background-color: hsl(0, 0%, 86%);
+  text-align: center;
+  padding: 25px;
+}
+.navbar{
+  background-color: hsl(0, 0%, 15%);
+  height: 50px;
+}
+aside{
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+section{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+article{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+footer{
+  display: block;
+  clear: both;
+  background-color: hsl(0, 0%, 86%);
+  text-align: center;
+  padding: 25px;
+}
+@media screen and (max-width:600px){
+  aside, section, article{
+    width: 100%;
+  }
 }
