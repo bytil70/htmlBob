@@ -176,7 +176,7 @@ div{
 
 */
 
-/*
+/* use on 23Position.html
 #box1{
   width: 200px;
   height: 200px;
@@ -194,4 +194,12 @@ div{
 }
   */
 
-  
+body
+{
+  background-image: url(image/lionRock.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
