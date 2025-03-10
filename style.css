@@ -33,7 +33,7 @@ h1{
 }
 */
 
-/* for index14 */
+/* for index14
 body{
   background-color: hsl(0 0% 11%);
 }
@@ -49,3 +49,16 @@ body{
 #p4{
   color: hsl(283 100% 64%);
 }
+*/
+
+/* use onindex15.html
+h1{
+  font-family: Roboto, verdana, arial;
+}
+p{
+  font-family: "Open Sans", "lucida console", "courier new";
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+*/
