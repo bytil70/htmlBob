@@ -64,7 +64,7 @@ p{
 */
 
   /* border-style: solid; dashed, dotted, double, groove, ridge, inset, outset, none  */
-
+/*
 h1{border: 3px solid hsl(273, 100%, 54%);
   border-radius: 20px;
 }
@@ -75,4 +75,14 @@ p{
   border-right: 3px dotted rgb(62, 255, 62);
 
   border-radius: 10px;
+}
+*/
+h1{
+  text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
+}
+#box1{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(234, 234, 234);
+  box-shadow: 3px 3px 5px;
 }
