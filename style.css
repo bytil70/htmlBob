@@ -194,6 +194,7 @@ div{
 }
   */
 
+/* use on 24BG
 body
 {
   background-image: url(image/lionRock.jpg);
@@ -202,4 +203,13 @@ body
   background-attachment: fixed;
   background-size: cover;
 
+}
+*/
+
+/* use on 25Combination */
+#container{
+  border: 2px solid;
+}
+#container ~ p{
+  background-color: hsl(60, 100%, 50%);
 }
