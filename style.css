@@ -135,4 +135,23 @@ div{
 }
 */
 
+/* use on 21Display */
+
+/* div{
+  background-color: hsl(0, 100%, 75%);
+  width: 100px;
+  height: 100px;
+  /* display: block;  add lorem and change block to inline 
+  /* display: inline;  it join into the Lorem, none is not show 
+  display: inline-block;
+  visibility: hidden; /* hide the display of div 
+}
+/*span{
+  background-color: hsl(204, 100%, 75%);
+  width: 100px; /* no change in span 
+  height: 100px;  /* no change in span 
+  /* display: block;  use this can change in span, add loren and change block to inline
+  /* display: inline; it join in the Lorem, none is not show  */
+  /*display: inline-block; 
+}
 
