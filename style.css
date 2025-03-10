@@ -111,7 +111,7 @@ body{
 }
 */
 
-
+/* use on index19Float
 body{
   border: 3px solid;
   display: flow-root;
@@ -124,3 +124,12 @@ body{
   float: right;
   margin-left: 10px;
 }
+*/
+
+div{
+  border: 2px solid;
+  height: 75px;
+  overflow: auto;  /* visible, hidden, clip, scroll, auto*/
+
+}
+
