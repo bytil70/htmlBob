@@ -540,10 +540,9 @@ img{
 }
 */
 
-/* use on 36Animation */
+/* use on 36Animation 
 body{
   background-color: hsl(0, 0%, 12%);
- /* background-color: white; */
 }
 #box{
   width: 250px;
@@ -598,3 +597,4 @@ img{
 @keyframes grow{
   50%{box-shadow: 0px 0px 50px hsl(60, 100%, 62%);}
 }
+*/
