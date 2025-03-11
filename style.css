@@ -476,13 +476,14 @@ footer{
 }
 */
 
-/* use on 34Flexbox */
+/* use on 34Flexbox 
 .container{
   display: flex;
-  /*flex-direction: column-reverse;*/
+
   border: 10px solid black;
   height: 90vh;
-  /*justify-content: space-evenly;*/
+
+  
   flex-wrap: wrap;
   align-content: flex-start;
   column-gap: 1em;
@@ -509,3 +510,32 @@ footer{
 #box4{
   background-color: hsl(201, 100%, 70%);
 }
+*/
+
+/* use on 35Transform translate, scale, rotate, skew */
+
+body{
+  margin: 0;
+}
+.box{
+  width: 250px;
+  height: 250px;
+  border: 5px solid;
+  font-size: 13em;
+  text-align: center;
+
+  transform: translateX(100px) rotateZ(45deg) scale(0.5);
+}
+#box1{
+  background-color: hsl(120, 100%, 70%);
+}
+#box2{
+  background-color: hsl(0, 100%, 70%);
+}
+#box3{
+  background-color: hsl(217, 100%, 70%);
+}
+img{
+  transform: translateX(100%) rotateZ(180deg) scaleX(2);
+}
+
