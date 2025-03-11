@@ -512,7 +512,7 @@ footer{
 }
 */
 
-/* use on 35Transform translate, scale, rotate, skew */
+/* use on 35Transform translate, scale, rotate, skew 
 
 body{
   margin: 0;
@@ -538,4 +538,63 @@ body{
 img{
   transform: translateX(100%) rotateZ(180deg) scaleX(2);
 }
+*/
 
+/* use on 36Animation */
+body{
+  background-color: hsl(0, 0%, 12%);
+ /* background-color: white; */
+}
+#box{
+  width: 250px;
+  height: 250px;
+  background-color: hsl(0, 100%, 62%);
+  font-size: 13em;
+  text-align: center;
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+img{
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slideLeft{
+  from{transform: translateX(200%);}
+}
+@keyframes slideRight{
+  to{transform: translateX(200%);}
+}
+@keyframes slideUp{
+  from{transform: translateY(200%);}
+}
+@keyframes slideDown{
+  to{transform: translateY(200%);}
+}
+@keyframes rotate{
+  50%{transform: rotateZ(360deg);}
+}
+@keyframes grow{
+  50%{transform: scale(2, 2);}
+}
+@keyframes shrink{
+  50%{transform: scale(0.5, 0.5);}
+}
+@keyframes colorChange{
+  0%{background-color: hsl(0, 100%, 62%);}
+  20%{background-color: hsl(35, 100%, 62%);}
+  40%{background-color: hsl(63, 100%, 62%);}
+  60%{background-color: hsl(103, 100%, 62%);}
+  80%{background-color: hsl(201, 100%, 62%);}
+  100%{background-color: hsl(268, 100%, 62%);}
+}
+@keyframes grow{
+  50%{box-shadow: 0px 0px 50px hsl(60, 100%, 62%);}
+}
