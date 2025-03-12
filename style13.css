@@ -9,6 +9,7 @@ h1{
 
 
 .odd{
+<<<<<<< HEAD
   color: rgb(255, 68, 0);
 }
 
@@ -17,6 +18,16 @@ h1{
 }
 
 /* 
+=======
+  color: red;
+}
+
+.even{
+  color: blue;
+}
+
+/*
+>>>>>>> 0cea2a31ae83c3f0ae5504b0ce5f11d8e39aa705
 #p1{
   color: red;
 }
@@ -28,4 +39,10 @@ h1{
 }
 #p4{
   color: green;
+<<<<<<< HEAD
 }
+=======
+}
+*/
+
+>>>>>>> 0cea2a31ae83c3f0ae5504b0ce5f11d8e39aa705
