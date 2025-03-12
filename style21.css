@@ -1,0 +1,17 @@
+
+/* inline can make div and span and the grapy in a same paragraph */
+/* inline-block output block inline */
+/* display: none will hide div and span */
+/* visibility: hidden can hide the what you want (div/span) */
+div{
+  background-color: hsl(0, 100%, 75%);
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+span{
+  background-color: hsl(204, 100%, 75%);
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
