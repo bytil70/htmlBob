@@ -1,0 +1,15 @@
+/* if the background is too small, 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover; */
+
+body
+{
+  background-image: url(image/lionRock.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
